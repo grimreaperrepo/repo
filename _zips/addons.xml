@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.grimreaper" name="[B][COLOR white]GrimreaperS [ THEMES ONLY ] Wizard[/COLOR][/B]" version="2.0.5" provider-name="[B][COLOR white]Grimreaper[/COLOR][/B]">
+<addon id="plugin.program.grimreaper" name="[B][COLOR white]**[COLOR white]GrimreaperS [ THEMES ONLY ] Wizard[COLOR white]**[/COLOR][/B]" version="2.0.5" provider-name="[B][COLOR white]Grimreaper[/COLOR][/B]">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.six" />

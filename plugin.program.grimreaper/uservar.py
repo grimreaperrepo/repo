@@ -6,7 +6,7 @@ import os, xbmcaddon
 CACHETEXT      = 'Yes'
 CACHEAGE       = 30
 ADDON_ID       = xbmcaddon.Addon().getAddonInfo('id')
-ADDONTITLE     = '[B][COLOR white]GrimreaperS [ THEMES ONLY ] Wizard[/COLOR][/B]'
+ADDONTITLE     = '[COLOR lime]-[B]GUI Wizard[/B]-[/COLOR]'
 BUILDERNAME    = 'Grimreaper Wizard'
 #########################Make sure to change the repo to yours!!!!
 EXCLUDES       = [ADDON_ID, 'roms', 'My_Builds', 'backupdir', 'script.module.kodi-six', 'script.module.six']
@@ -97,17 +97,17 @@ THEME6         = '[COLOR '+COLOR3+'][B]%s[/B][/COLOR]'
 # Example:  ICONMAINT     = os.path.join(ART, 'mainticon.png')
 #           ICONSETTINGS  = 'http://aftermathwizard.net/repo/wizard/settings.png'
 # Leave as http:// for default icon
-ICONBUILDS     = 'http://i.imgur.com/E7oBc7x.png'
-ICONMAINT      = 'http://i.imgur.com/E7oBc7x.png'
-ICONAPK        = 'http://i.imgur.com/E7oBc7x.png'
-ICONADDONS     = 'http://i.imgur.com/E7oBc7x.png'
-ICONYOUTUBE    = 'http://i.imgur.com/E7oBc7x.png'
-ICONSAVE       = 'http://i.imgur.com/E7oBc7x.png'
-ICONTRAKT      = 'http://i.imgur.com/E7oBc7x.png'
-ICONREAL       = 'http://i.imgur.com/E7oBc7x.png'
-ICONLOGIN      = 'http://i.imgur.com/E7oBc7x.png'
-ICONCONTACT    = 'http://i.imgur.com/E7oBc7x.png'
-ICONSETTINGS   = 'http://i.imgur.com/E7oBc7x.png'
+ICONBUILDS     = 'http://'
+ICONMAINT      = 'http://'
+ICONAPK        = 'http://'
+ICONADDONS     = 'http://'
+ICONYOUTUBE    = 'http://'
+ICONSAVE       = 'http://'
+ICONTRAKT      = 'http://'
+ICONREAL       = 'http://'
+ICONLOGIN      = 'http://'
+ICONCONTACT    = 'http://'
+ICONSETTINGS   = 'http://'
 # Hide the ====== seperators 'Yes' or 'No'
 HIDESPACERS    = 'No'
 # Character used in seperator
@@ -149,7 +149,7 @@ REPOZIPURL     =  'http://'
 ### NOTIFICATION WINDOW##################################
 #########################################################
 # Enable Notification screen Yes or No
-ENABLE         = 'Yes'
+ENABLE         = 'No'
 # Url to notification file
 NOTIFICATION   = 'http://'
 # Use either 'Text' or 'Image'
