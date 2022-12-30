@@ -6,11 +6,11 @@ import os, xbmcaddon
 CACHETEXT      = 'Yes'
 CACHEAGE       = 30
 ADDON_ID       = xbmcaddon.Addon().getAddonInfo('id')
-ADDONTITLE     = '[COLOR lime]-[B]GUI Wizard[/B]-[/COLOR]'
-BUILDERNAME    = 'GUI Wiz'
+ADDONTITLE     = '[B][COLOR white]GrimreaperS [ THEMES ONLY ] Wizard[/COLOR][/B]'
+BUILDERNAME    = 'Grimreaper Wizard'
 #########################Make sure to change the repo to yours!!!!
 EXCLUDES       = [ADDON_ID, 'roms', 'My_Builds', 'backupdir', 'script.module.kodi-six', 'script.module.six']
-BUILDFILE      = 'https://raw.githubusercontent.com/grimreaperrepo/repo/main/builds.txt'
+BUILDFILE      = 'https://raw.githubusercontent.com/grimreaperrepo/text/main/builds.txt'
 UPDATECHECK    = 0
 APKFILE        = 'http://'
 YOUTUBETITLE   = 'FTG Help Videos' 
@@ -34,37 +34,37 @@ ART            = os.path.join(PATH, 'resources', 'art')
 # Only these colors avalable
 # white , blue , orange , yellow , red , purple , pink , lime , cyan, green
 #Button focus color
-FOCUS_BUTTON_COLOR = 'green'
-EXIT_BUTTON_COLOR = 'red'
+FOCUS_BUTTON_COLOR = 'red'
+EXIT_BUTTON_COLOR = 'white'
 #Highlight outline for lists
 HIGHLIGHT_LIST = 'button_focus'
 HIGHLIGHT_LIST2 = 'MenuItemFO'
 ##No TXT file Banner
-NO_TXT_FILE = 'pink'
+NO_TXT_FILE = 'white'
 
 ############################################
 ############################################
 ### The full list of colors for below can found @ https://forum.kodi.tv/showthread.php?tid=210837
 
 #Top Main buttons
-MAIN_BUTTONS_TEXT = 'lime'
+MAIN_BUTTONS_TEXT = 'white'
 #All other buttons
-OTHER_BUTTONS_TEXT = 'lime'
+OTHER_BUTTONS_TEXT = 'white'
 #all list text color
 ##FYI any color placed in the txt file will overide this
-LIST_TEXT = 'khaki'
+LIST_TEXT = 'white'
 
 
 #Description text title color
-DES_T_COLOR = 'cornflowerblue'
+DES_T_COLOR = 'white'
 #Description color
-DESCOLOR = 'cyan'
+DESCOLOR = 'white'
 
 #Wizard title name and verion color
-WIZTITLE = 'Matrix GUI Wizard'
-WIZTITLE_COLOR = 'plum'
-VERTITLE_COLOR = 'peru'
-VER_NUMBER_COLOR = 'maroon'
+WIZTITLE = 'Grimreaper Wizard'
+WIZTITLE_COLOR = 'white'
+VERTITLE_COLOR = 'white'
+VER_NUMBER_COLOR = 'white'
 ############################################################
 
 ## The colors and theme below is still used for the pop up dialogs
@@ -72,8 +72,8 @@ VER_NUMBER_COLOR = 'maroon'
 # You can edit these however you want, just make sure that you have a %s in each of the
 # THEME's so it grabs the text from the menu item
 COLOR1         = 'white'
-COLOR2         = 'lime'
-COLOR3         = 'red'
+COLOR2         = 'white'
+COLOR3         = 'white'
 COLOR4         = 'snow'
 COLOR5         = 'lime'
 # Primary menu items   / %s is the menu item and is required
@@ -156,7 +156,7 @@ NOTIFICATION   = 'http://'
 HEADERTYPE     = 'Text'
 # Font size of header
 FONTHEADER     = 'Font13'
-HEADERMESSAGE  = 'Matrix GUI Wizard'
+HEADERMESSAGE  = 'Grimreaper Wizard'
 # url to image if using Image 424x180
 HEADERIMAGE    = ''
 # Font for Notification Window
