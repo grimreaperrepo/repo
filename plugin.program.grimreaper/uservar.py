@@ -10,7 +10,7 @@ ADDONTITLE     = '[COLOR lime]-[B]GUI Wizard[/B]-[/COLOR]'
 BUILDERNAME    = 'GUI Wiz'
 #########################Make sure to change the repo to yours!!!!
 EXCLUDES       = [ADDON_ID, 'roms', 'My_Builds', 'backupdir', 'script.module.kodi-six', 'script.module.six']
-BUILDFILE      = 'https://raw.githubusercontent.com/grimreaperrepo/repo/main/builds.txt'
+BUILDFILE      = 'https://raw.githubusercontent.com/grimreaperrepo/text/main/builds.txt'
 UPDATECHECK    = 0
 APKFILE        = 'http://'
 YOUTUBETITLE   = 'FTG Help Videos' 
